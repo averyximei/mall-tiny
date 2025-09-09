@@ -1,4 +1,4 @@
-package com.example.malltiny.model;
+package com.example.malltiny.mbg.model;
 
 import java.util.ArrayList;
 import java.util.List;

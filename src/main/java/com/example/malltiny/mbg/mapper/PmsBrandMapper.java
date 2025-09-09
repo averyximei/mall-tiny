@@ -1,7 +1,7 @@
-package com.example.malltiny.mapper;
+package com.example.malltiny.mbg.mapper;
 
-import com.example.malltiny.model.PmsBrand;
-import com.example.malltiny.model.PmsBrandExample;
+import com.example.malltiny.mbg.model.PmsBrand;
+import com.example.malltiny.mbg.model.PmsBrandExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
