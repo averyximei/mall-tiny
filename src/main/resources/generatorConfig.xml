@@ -33,13 +33,13 @@
         </jdbcConnection>
 
         <!-- 生成实体类 -->
-        <javaModelGenerator targetPackage="com.example.malltiny.model" targetProject="src/main/java"/>
+        <javaModelGenerator targetPackage="com.example.malltiny.mbg.model" targetProject="src/main/java"/>
 
         <!-- 生成Mapper XML -->
         <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
 
         <!-- 生成Mapper接口 -->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.example.malltiny.mapper" targetProject="src/main/java"/>
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.example.malltiny.mbg.mapper" targetProject="src/main/java"/>
 
         <!-- 表配置 -->
         <table tableName="pms_brand">
